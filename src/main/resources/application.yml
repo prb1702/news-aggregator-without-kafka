@@ -11,6 +11,8 @@ spring:
 
     show-sql: true
 
+    open-in-view: false
+
     properties:
       hibernate:
         format_sql: true
@@ -26,3 +28,7 @@ logging:
   level:
     org.springframework.security: INFO
     org.hibernate.SQL: DEBUG
+
+jwt:
+  secret: mySuperSecretKeyForNewsAggregatorApplication123456789
+  expiration: 86400000

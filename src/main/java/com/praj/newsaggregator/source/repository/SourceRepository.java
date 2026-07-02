@@ -9,4 +9,5 @@ public interface SourceRepository extends JpaRepository<Source, Long> {
 
     List<Source> findByEnabledTrue();
 
+    boolean existsByRssUrl(String rssUrl);
 }

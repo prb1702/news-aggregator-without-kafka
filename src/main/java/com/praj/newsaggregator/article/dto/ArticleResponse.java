@@ -23,7 +23,7 @@ public class ArticleResponse {
 
     private String category;
 
-    private String source;
+    private String sourceName;
 
     private LocalDateTime publishedAt;
 
